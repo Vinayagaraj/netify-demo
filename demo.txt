@@ -1,0 +1,7 @@
+This is a github learning session
+Press ctrl+s for save the file...
+git add .
+
+
+Fetch test git commands
+work out
