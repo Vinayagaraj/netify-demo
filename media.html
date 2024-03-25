@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (max-width:500px) {
+            .main{
+                background-color: green;
+                font-style: italic;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+
+
+        @media screen and (min-width:600px) {
+            .main{
+                background-color:orange;
+                font-style: italic;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti harum quam nesciunt ut deleniti. Cum alias illum accusantium voluptatum necessitatibus nobis, commodi ut voluptatibus provident placeat, ipsam eaque? Temporibus, corrupti!</div> 
+</body>
+</html>
+
+<!-- 
+Gradients:
+To add the transition of Colors:
+linear-Gradients
+radial-Gradients
+linear-gradient:background-image=linear-gradient(direction, colo1,color2,...)
+
+A radial Graidents are defined in Center 
+background-image=radial-gradient(c1,c2,c3...) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-image: radial-gradient(red,green,orange,yellow,blue);
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    <div>this is div</div>
+</body>
+</html>
+<!-- 
+CSS units:
+Absolute units: px,pt,cm,mm...
+Relative units:
+They are dependent on the absolute units
+em,rem...
+vmin,vmax
+
+em -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     div{
+        font-size: 18px;
+    }
+    section{
+        font-size: 2em;
+    }
+
+    </style>
+</head>
+<body>
+    <div>
+        <section>loprm ipsum section</section>
+    </div>
+    
+</body>
+</html>
