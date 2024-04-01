@@ -1,25 +1,13 @@
-body{
-    background-color: lightgray;
+.main{
+    text-align: center;
+    padding-top: 100px;
 }
-.fa{
-    color:royalblue
+input{
+    width: 30%;
 }
-
-a{
-border-bottom:1px solid blue
+button{
+    margin:20px;
 }
-
-p{
-    margin:10px 0px;
-    font-size: 12px;
-}
-
-.box-part{
-    background-color: white;
-    padding:50px 10px;
-    margin:30px 5px
-}
-
-.box{
-    padding: 70px 1px;
+.main1{
+    text-align: center;
 }
